@@ -4,6 +4,6 @@ for filename in ~/Desktop/tem/*.py; do
     cp $filename .
     git add .
     git commit -m "Added file $filename to NMT Joint Attention"
-    GIT_COMMITTER_DATE="Wed 18 Sep 2018 20:19:19 BST" git commit --amend --no-edit --date "Wed 18 Sep 2018 20:19:19 BST"
+    GIT_COMMITTER_DATE="Tue 17 Sep 2018 20:19:19 BST" git commit --amend --no-edit --date "Tue 17 Sep 2018 20:19:19 BST"
 done
 git push origin master
