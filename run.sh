@@ -1,5 +1,5 @@
 #!/bin/bash
-for filename in ~/Desktop/tem; do
+for filename in ~/Desktop/tem/*.py; do
     cp $filename .
     git add .
     git commit -m "Added file $filename to NMT Joint Attention"
